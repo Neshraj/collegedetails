@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.liitem{
+    list-style: none;
+}
+
+
+#maintable {
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for touch devices */
+}
+
+table {
+    width: 100%; /* Ensures the table takes the full width available */
+    border-collapse: collapse; /* Optional: Removes space between table cells */
+}
+
+table th, table td {
+    padding: 8px; /* Adjust padding as needed */
+    text-align: left; /* Adjust text alignment */
+    border: 1px solid #000000; /* Optional: Add 
+    borders to table */
+    text-align: center;
+}
+
+
+
+#maintable h3{
+    text-align: center;
+    margin: 20px;
+    text-shadow: 1px 1px 1px #7e7e7e;
+}
+
+th{
+    text-shadow: 1px 1px 1px #b2b2b2;
+}
+
+td{
+    font-weight:500;
+    text-shadow: 1px 1px 1px #b2b2b2;
+}
+
+
+
