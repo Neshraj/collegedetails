@@ -13,7 +13,7 @@ const CollegeList = () => {
     useEffect(() => {
         const fetchCollegeData = async () => {
             try {
-                const response = await fetch('http://localhost:4000/getcollegedetails');
+                const response = await fetch('https://collegedetailsserver.onrender.com/getcollegedetails');
                 if (!response.ok) {
                     throw new Error('Failed to fetch data');
                 }
